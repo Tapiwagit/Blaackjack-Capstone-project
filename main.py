@@ -124,7 +124,7 @@ def play_game():
         else:
             user_should_deal = input(
                 "type 'y' to get another card, type n to pass: ")
-            if user_should_deal == 'y':
+            if user_should_deal == "y":
                 user_cards.append(deal_card())
             else:
                 is_game_over = True
